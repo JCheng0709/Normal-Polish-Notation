@@ -44,5 +44,5 @@
 1. `rst_n` 觸發後所有輸出需歸零  
 2. `in_valid` 高時不得同時拉高 `out_valid`  
 3. `out_valid` 為 0 時，`out` 必須為 0  
-4. **每個 pattern 延遲 ≤ 1000 cycles**:contentReference[oaicite:7]{index=7}  
+4. **每個 pattern 延遲 ≤ 1000 cycles**
 5. Mode 0/1 時 `out_valid` 長度 = `in_valid` × 1/3；Mode 2/3 時 `out_valid` 只佔 1 cycle
